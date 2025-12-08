@@ -29,7 +29,7 @@ In this project, you have the role of a clerk who checks if credit cards are val
 
 ## My version
 
-[Click here for my version!](https://github.com/AlepilDev00/Credit-Card-Checker/main.js)
+[Click here for my version!](https://github.com/AlepilDev00/Credit-Card-Checker/blob/main/main.js)
 
 Feel free to comment and give me advice to correct my mistakes and continue to improve. Thanks a lot in advance.
 
