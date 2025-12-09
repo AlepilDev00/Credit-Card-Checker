@@ -65,12 +65,7 @@ const validateCred = (arr) => {
   }
 };
 
-// Testing validateCred function
-/*
-console.log(validateCred(valid1))
-console.log(validateCred(invalid3))
-console.log(validateCred(mystery3))
-*/
+/*Testing validateCred function with known valid and invalid cards*/
 
 // Function to find invalid credit card numbers from a nested array
 const findInvalidCards = (nestedArr) => {
@@ -83,10 +78,7 @@ const findInvalidCards = (nestedArr) => {
   return invalidCards;
 };
 
-// Testing findInvalidCards function
-/*
-console.log(findInvalidCards(batch));
-*/
+/*Testing findInvalidCards function with batch array*/
 
 // Function to identify credit card companies that have issued invalid cards
 const idInvalidCardCompanies = (invalidNums) => {
@@ -112,10 +104,7 @@ const idInvalidCardCompanies = (invalidNums) => {
   return [...companies];
 };
 
-// Testing idInvalidCardCompanies function
-/*
-console.log(idInvalidCardCompanies(findInvalidCards(batch))); should return ['Visa', 'Mastercard', 'Amex (American Express)', 'Discover']
-*/
+/*Testing idInvalidCardCompanies function with batch array that pass through findInvalidCards first*/
 
 // Function to convert a string of numbers into an array of integers
 function convertToCard(card) {
@@ -126,15 +115,7 @@ function convertToCard(card) {
   return newCardArr;
 }
 
-// Testing convertToCard function
-/*
-console.log(convertToCard('4929394745054210')); // Visa
-console.log(convertToCard('5243787585899295')); // Mastercard
-console.log(convertToCard('379302371333967')); // Amex (American Express)
-console.log(convertToCard('6011555423146171')); // Discover
-console.log(validateCred(convertToCard('4929394745054210'))); // Should return true
-console.log(idInvalidCardCompanies([convertToCard('379302371333967')])); // Should return ['Amex (American Express)']
-*/
+/*Testing convertToCard, validateCred and idInvalidCardCompanies function with other card numbers*/
 
 //Create a function that will convert invalid numbers into valid numbers.
 const convertInvalidToValid = (invalidArr) => {
@@ -155,13 +136,6 @@ const convertInvalidToValid = (invalidArr) => {
 const invalidCards = findInvalidCards(batch);
 const convertedCards = convertInvalidToValid(invalidCards);
 
-// Testing convertInvalidToValid function
-/*
-console.log('Invalid Cards:', invalidCards); // Display invalid cards
-console.log('Converted Valid Cards:', convertedCards); // Display converted valid cards
+/*Testing convertInvalidToValid function. Use invalidCards and convertedCards variables to see results.*/
 
-// Verify that all converted cards are valid
-for (let k = 0; k < convertedCards.length; k++) {
-  console.log(validateCred(convertedCards[k])); // Should all return true
-}
-*/
+/*Verify that all converted cards are valid using a loop to check each one and log the result passing through validateCred. Should all return true.*/
