@@ -12,7 +12,7 @@ Context: The company that you work for suspects that credit card distributors ha
 
 ## Overview
 
-These functions were created to practice Javascript ES6 learned in Codeacademy Full-Stack Engineer career path. The project is called "Challenge Project: Credit Card Checker".
+These functions were created to practice Javascript ES6 (functions, arrays manipulation, loops) learned in Codeacademy Full-Stack Engineer career path. The project is called "Challenge Project: Credit Card Checker".
 
 ## Project Goals
 
@@ -41,4 +41,5 @@ Added just a few lines of code for testing it
 - https://developer.mozilla.org/en-US/
 - https://stackoverflow.com/questions
 - https://www.freeformatter.com/credit-card-number-generator-validator.html
+
 
