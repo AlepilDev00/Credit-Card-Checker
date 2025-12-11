@@ -34,12 +34,11 @@ In this project, you have the role of a clerk who checks if credit cards are val
 
 Feel free to comment and give me advice to correct my mistakes and continue to improve. Thanks a lot in advance.
 
-Added just a few lines of code for testing it
-
 ## Sources
 
 - https://developer.mozilla.org/en-US/
 - https://stackoverflow.com/questions
 - https://www.freeformatter.com/credit-card-number-generator-validator.html
+
 
 
