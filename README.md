@@ -6,6 +6,7 @@ Context: The company that you work for suspects that credit card distributors ha
 
 - [Overview](#overview)
 - [Project Goals](#project_goals)
+- [Project Extensions](#project_extensions)
 - [My version](#my_version)
 - [Sources](#sources)
 
@@ -40,3 +41,4 @@ Added just a few lines of code for testing it
 - https://developer.mozilla.org/en-US/
 - https://stackoverflow.com/questions
 - https://www.freeformatter.com/credit-card-number-generator-validator.html
+
